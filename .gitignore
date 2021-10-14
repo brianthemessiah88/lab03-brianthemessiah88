@@ -1,0 +1,23 @@
+# Executables specific to this assignment
+
+./min2
+./min3v1
+./min3v2
+./block
+./min4
+./pi
+
+# Emacs backup files
+
+*~
+
+# Vim swap files
+
+*.swo
+*.swp
+
+
+# Generic file patterns associated with C++
+
+a.out
+*.o
