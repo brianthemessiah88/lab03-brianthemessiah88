@@ -16,7 +16,7 @@ int main(){
 		cout.setf(ios::fixed);
 		cout.setf(ios::showpoint);
 		cout.precision(3);
-		cout<<"The approximate value of pi using "<<n<<"  term is: "<<pi*4.0<<endl;
+		cout<<"The approximate value of pi using "<<n<<" terms is: "<<pi*4.0<<endl;
 		pi = 0.0;
 		cout<<"Enter the value of the parameter 'n' in the Leibniz formula ";
                 cout<<"(or -1 to quit):"<<endl;
