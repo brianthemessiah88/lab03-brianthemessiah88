@@ -9,6 +9,7 @@ int main(){
 	cout<<"Enter the value of the parameter 'n' in the Leibniz formula ";
 	cout<<"(or -1 to quit):"<<endl;
 	while ((cin >>n)&&(n>=0)){
+		n+=1;
 		for (int i = 0;i<n;i++){
 			pi += ((pow(-1,i))/((2*i)+1));
 		} 
