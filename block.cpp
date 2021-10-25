@@ -12,9 +12,9 @@ int main() {
         for (int i = 0; i<cols; i++){
           cout<< "X.";
         }
-      cout<<endl;
+    	cout<<endl;
     }
-    cout << endl<<"Enter number of rows and columns:"<<endl;
+    cout <<"Enter number of rows and columns:"<<endl;
   }
   return 0;
 }
